@@ -1,3 +1,6 @@
 import Button from "./Button";
+import Icon from "./Icon";
 
-export { Button };
+export type IconType = import("./Icon").IconType;
+
+export { Button, Icon };
