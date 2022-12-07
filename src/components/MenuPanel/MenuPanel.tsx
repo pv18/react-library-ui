@@ -17,20 +17,16 @@ export const MenuPanel: React.FC = () => {
       </div>
       <div className="MenuPanel-Title">Components</div>
       <div className="MenuPanel-List">
-        <NavLink
-          className={setActive}
-          // activeClassName="MenuPanel-ListItem__active"
-          to={ROUTES.BUTTON}
-        >
+        <NavLink className={setActive} to={ROUTES.BUTTON}>
           Button
         </NavLink>
 
-        <NavLink
-          className={setActive}
-          // activeClassName="MenuPanel-ListItem__active"
-          to={ROUTES.ICON}
-        >
+        <NavLink className={setActive} to={ROUTES.ICON}>
           Icon
+        </NavLink>
+
+        <NavLink className={setActive} to={ROUTES.ACCORDION}>
+          Accordion
         </NavLink>
       </div>
     </nav>

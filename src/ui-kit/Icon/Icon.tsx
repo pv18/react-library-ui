@@ -2,10 +2,14 @@ import React, { DOMAttributes } from "react";
 import classNames from "classnames";
 import { newGuid } from "utils/guid";
 import { ReactComponent as Pdf } from "ui-kit/assets/icons/files/pdf.svg";
+import { ReactComponent as ArrowDown } from "ui-kit/assets/icons/ArrowDown.svg";
 
-export type IconType = "Pdf";
+export type IconType = "Pdf" | "ArrowDown";
 
-const iconTypes = new Map([["Pdf", <Pdf key={newGuid()} />]]);
+const iconTypes = new Map([
+  ["ArrowDown", <ArrowDown key={newGuid()} />],
+  ["Pdf", <Pdf key={newGuid()} />],
+]);
 
 export interface IIconProps extends DOMAttributes<HTMLDivElement> {
   className?: string;

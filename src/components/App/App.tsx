@@ -4,6 +4,7 @@ import { Layout } from "components";
 import { ROUTES } from "../../routes";
 import { ButtonPage, HomePage, IconPage } from "../../pages";
 import { Route, Routes } from "react-router-dom";
+import AccordionPage from "../../pages/AccordionPage";
 
 export const App: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ export const App: React.FC = () => {
           <Route path={ROUTES.HOME} element={<HomePage />} />
           <Route path={ROUTES.BUTTON} element={<ButtonPage />} />
           <Route path={ROUTES.ICON} element={<IconPage />} />
+          <Route path={ROUTES.ACCORDION} element={<AccordionPage />} />
         </Routes>
       </Layout>
     </div>
