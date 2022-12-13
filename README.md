@@ -4,13 +4,13 @@
 
 ## Функционал
 
-* Кнопка
-* Иконка
-* Аккордион
+- Кнопка
+- Иконка
+- Аккордион
 
 ## Технологии
 
-* React
-* Typescript
-* React Router
-* Axios
+- React
+- Typescript
+- React Router
+- Axios

@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
-import "./Layout.scss";
 import { Heading, MenuPanel } from "components";
+import "./Layout.scss";
 
 interface ILayoutProps {
   children?: ReactNode;

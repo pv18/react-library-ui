@@ -28,6 +28,10 @@ export const MenuPanel: React.FC = () => {
         <NavLink className={setActive} to={ROUTES.ACCORDION}>
           Accordion
         </NavLink>
+
+        <NavLink className={setActive} to={ROUTES.SELECT}>
+          Select
+        </NavLink>
       </div>
     </nav>
   );

@@ -2,7 +2,7 @@ import React from "react";
 import "./App.scss";
 import { Layout } from "components";
 import { ROUTES } from "../../routes";
-import { ButtonPage, HomePage, IconPage } from "../../pages";
+import { ButtonPage, HomePage, IconPage, SelectPage } from "../../pages";
 import { Route, Routes } from "react-router-dom";
 import AccordionPage from "../../pages/AccordionPage";
 
@@ -15,6 +15,7 @@ export const App: React.FC = () => {
           <Route path={ROUTES.BUTTON} element={<ButtonPage />} />
           <Route path={ROUTES.ICON} element={<IconPage />} />
           <Route path={ROUTES.ACCORDION} element={<AccordionPage />} />
+          <Route path={ROUTES.SELECT} element={<SelectPage />} />
         </Routes>
       </Layout>
     </div>

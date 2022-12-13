@@ -3,4 +3,5 @@ export const ROUTES = {
   BUTTON: "/button",
   ICON: "/icon",
   ACCORDION: "/accordion",
+  SELECT: "/select",
 };
