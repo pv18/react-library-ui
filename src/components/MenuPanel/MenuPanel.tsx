@@ -32,6 +32,9 @@ export const MenuPanel: React.FC = () => {
         <NavLink className={setActive} to={ROUTES.SELECT}>
           Select
         </NavLink>
+        <NavLink className={setActive} to={ROUTES.MODAL}>
+          Modal
+        </NavLink>
       </div>
     </nav>
   );

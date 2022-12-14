@@ -32,7 +32,9 @@ export const SelectPage: React.FC = () => {
   }, [setNeedRequestIndicator, needRequestIndicator]);
 
   const fetchProductsBySorting = useCallback(
-    (selectedOption: SingleValue<ISelectOption> | MultiValue<ISelectOption>) => {
+    (
+      selectedOption: SingleValue<ISelectOption> | MultiValue<ISelectOption>
+    ) => {
       productsApi
         .fetchProducts(selectedOption)
         .then(res => {
