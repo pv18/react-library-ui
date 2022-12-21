@@ -5,4 +5,5 @@ export const ROUTES = {
   ACCORDION: "/accordion",
   SELECT: "/select",
   MODAL: "/modal",
+  CHECKBOX: "/checkbox",
 };

@@ -3,11 +3,11 @@ import "./App.scss";
 import { Layout } from "components";
 import { ROUTES } from "../../routes";
 import {
-  ButtonPage,
+  ButtonPage, CheckboxPage,
   HomePage,
   IconPage,
   ModalPage,
-  SelectPage,
+  SelectPage
 } from "../../pages";
 import { Route, Routes } from "react-router-dom";
 import AccordionPage from "../../pages/AccordionPage";
@@ -23,6 +23,7 @@ export const App: React.FC = () => {
           <Route path={ROUTES.ACCORDION} element={<AccordionPage />} />
           <Route path={ROUTES.SELECT} element={<SelectPage />} />
           <Route path={ROUTES.MODAL} element={<ModalPage />} />
+          <Route path={ROUTES.CHECKBOX} element={<CheckboxPage />} />
         </Routes>
       </Layout>
     </div>
